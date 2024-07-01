@@ -121,7 +121,7 @@ function getLocation() {
         navigator.geolocation.getCurrentPosition(showPosition);
     }
     else {
-        
+        console.log('error');
         
     }
 }

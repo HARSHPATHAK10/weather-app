@@ -168,7 +168,7 @@ async function fetchSearchWeatherInfo(city) {
         renderWeatherInfo(data);
     }
     catch(err) {
-        
+        console.log('error');
         
     }
 }
